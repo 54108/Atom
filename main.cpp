@@ -559,7 +559,7 @@ int main(int, char **)
 
             ImGui::BeginGroup();
             // 分割器
-            ImGui::InvisibleButton("splitter_vertical", ImVec2(1.0f, -1.0f));
+            ImGui::InvisibleButton("splitter_vertical", ImVec2(4.0f, -1.0f));
             if (ImGui::IsItemHovered())
             {
                 ImGui::SetMouseCursor(ImGuiMouseCursor_ResizeEW);  // 更改鼠标光标
@@ -590,11 +590,10 @@ int main(int, char **)
                         // Do stuff on Selectable() double click.
                         selected_right = i;
                         ImGui::SetClipboardText(items_right[i].c_str());
-                        selected_right = -1;
                     }
+                selected_right = -1;
             }
             ImGui::EndChild();
-            // 添加一个输入框
 
             // 分割器
             ImGui::InvisibleButton("splitter_horizontal", ImVec2(-1.0f, 4.0f));
