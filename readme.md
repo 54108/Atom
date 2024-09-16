@@ -8,3 +8,9 @@ mkdir build && cd build
 cmake ..
 make
 ```
+- use the follow instruction to run it
+```
+./atom
+```
+
+### now it is linux only and just have main window.
