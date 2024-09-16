@@ -367,8 +367,7 @@ static void FrameRender(ImGui_ImplVulkanH_Window *wd, ImDrawData *draw_data)
     }
 }
 
-static void
-FramePresent(ImGui_ImplVulkanH_Window *wd)
+static void FramePresent(ImGui_ImplVulkanH_Window *wd)
 {
     if (g_SwapChainRebuild)
         return;
