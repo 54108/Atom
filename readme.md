@@ -1,5 +1,11 @@
 # This is a peer-to-peer chat software
 
+- use the follow instruction to install required packages
+
+```
+sudo apt install libwayland-dev wayland-protocols pkg-config libx11-dev xorg-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxkbcommon-dev vulkan-tools libvulkan-dev vulkan-utility-libraries-dev
+```
+
 - use the follow instruction to build it
 
 ```
