@@ -26,9 +26,9 @@ include_directories(${IMGUI_DIR} ${IMGUI_DIR}/backends)
 
 # Libraries
 find_package(Vulkan REQUIRED)
-#find_library(VULKAN_LIBRARY
-  #NAMES vulkan vulkan-1)
-#set(LIBRARIES "glfw;${VULKAN_LIBRARY}")
+# find_library(VULKAN_LIBRARY
+#   NAMES vulkan vulkan-1)
+# set(LIBRARIES "glfw;${VULKAN_LIBRARY}")
 set(LIBRARIES "glfw;Vulkan::Vulkan")
 
 # Use vulkan headers from glfw:
